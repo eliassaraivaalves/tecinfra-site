@@ -1,20 +1,11 @@
-TECINFRA — SITE
-================
-
-Arquivos:
-- index.html
-- style.css
-
-Publicação:
-O projeto foi preparado para hospedagem estática e integração com GitHub + Cloudflare Pages.
-
-Contato configurado:
+TECINFRA — VERSÃO DINÂMICA
 WhatsApp: (88) 99401-2298
-Instagram: https://www.instagram.com/limotecinfra/
+Instagram: @limotecinfra
 
-Antes de divulgar, revise:
-- número do WhatsApp
-- domínio
-- e-mail comercial, se houver
-- textos e serviços
-- política de privacidade/termos, quando necessários
+Principais correções:
+- animações de entrada conforme o usuário rola a página;
+- cards com efeito de movimento no mouse;
+- barra de progresso da página;
+- elementos visuais do painel com animação;
+- botão do WhatsApp corrigido para navegação direta;
+- formulário do WhatsApp gera a mensagem com os dados preenchidos.
