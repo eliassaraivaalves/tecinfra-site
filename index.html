@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="InfraTech - soluções de infraestrutura de TI para empresas. Redes, servidores, segurança, backup, monitoramento e CFTV.">
+  <title>InfraTech | Infraestrutura de TI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="container nav">
+    <a class="brand" href="#inicio"><span>INFRA</span>TECH</a>
+    <nav>
+      <a href="#solucoes">Soluções</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#diagnostico">Diagnóstico</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <a class="nav-cta" href="#diagnostico">Solicitar diagnóstico</a>
+  </div>
+</header>
+
+<main id="inicio">
+<section class="hero">
+  <div class="container hero-grid">
+    <div>
+      <p class="eyebrow">INFRAESTRUTURA • SEGURANÇA • CONTINUIDADE</p>
+      <h1>Infraestrutura de TI que mantém sua empresa funcionando.</h1>
+      <p class="hero-text">Projetamos, implantamos e cuidamos da infraestrutura tecnológica da sua empresa para reduzir falhas, aumentar a segurança e dar previsibilidade à operação.</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="#diagnostico">Solicitar diagnóstico gratuito</a>
+        <a class="btn secondary" href="#solucoes">Conhecer soluções</a>
+      </div>
+      <div class="trust">
+        <span>✓ Atendimento remoto e presencial</span>
+        <span>✓ Soluções sob medida</span>
+      </div>
+    </div>
+    <div class="network-card">
+      <div class="card-top"><span class="dot"></span> INFRASTRUCTURE STATUS</div>
+      <div class="status-main">OPERAÇÃO<br><strong>MONITORADA</strong></div>
+      <div class="nodes">
+        <div><b>REDE</b><span>ONLINE</span></div>
+        <div><b>SERVIDORES</b><span>ONLINE</span></div>
+        <div><b>BACKUP</b><span>PROTEGIDO</span></div>
+        <div><b>FIREWALL</b><span>ATIVO</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="solucoes">
+  <div class="container">
+    <p class="eyebrow">SOLUÇÕES</p>
+    <h2>TI pensada para o seu negócio.</h2>
+    <p class="section-lead">Da rede ao servidor, cuidamos dos componentes que sustentam a operação da sua empresa.</p>
+    <div class="cards">
+      <article><div class="icon">01</div><h3>Redes e Wi-Fi</h3><p>Projeto, organização, configuração e otimização de redes cabeadas e Wi-Fi corporativo.</p></article>
+      <article><div class="icon">02</div><h3>Servidores</h3><p>Implantação e administração de servidores Linux, Windows, virtualização e serviços internos.</p></article>
+      <article><div class="icon">03</div><h3>Firewall e VPN</h3><p>Controle de acesso, segmentação, VPN e políticas para proteger a rede da empresa.</p></article>
+      <article><div class="icon">04</div><h3>Backup</h3><p>Estratégias de backup e recuperação para reduzir o risco de perda de dados e interrupções.</p></article>
+      <article><div class="icon">05</div><h3>Monitoramento</h3><p>Acompanhamento de servidores, dispositivos e serviços para identificar problemas antes de virarem incidentes.</p></article>
+      <article><div class="icon">06</div><h3>CFTV e infraestrutura</h3><p>Infraestrutura de rede para câmeras, NVRs e equipamentos de segurança eletrônica.</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="dark-section" id="sobre">
+  <div class="container split">
+    <div>
+      <p class="eyebrow">INFRATECH</p>
+      <h2>Mais do que suporte. Uma infraestrutura organizada.</h2>
+    </div>
+    <div>
+      <p>Uma empresa depende da tecnologia para vender, atender clientes, armazenar informações e trabalhar todos os dias. Quando a infraestrutura é improvisada, qualquer falha pode virar prejuízo.</p>
+      <p>A InfraTech trabalha para organizar essa base: identificar riscos, documentar o ambiente, melhorar a segurança e manter os serviços disponíveis.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section diagnostic" id="diagnostico">
+  <div class="container diagnostic-box">
+    <div>
+      <p class="eyebrow">DIAGNÓSTICO GRATUITO</p>
+      <h2>Descubra os pontos críticos da sua infraestrutura.</h2>
+      <p>Conte um pouco sobre sua empresa. Podemos avaliar sua estrutura atual e apontar oportunidades de melhoria.</p>
+    </div>
+    <form id="leadForm">
+      <input id="nome" required placeholder="Seu nome">
+      <input id="empresa" required placeholder="Nome da empresa">
+      <input id="whatsapp" required placeholder="WhatsApp">
+      <textarea id="mensagem" placeholder="Conte brevemente o que você precisa"></textarea>
+      <button class="btn primary" type="submit">Solicitar pelo WhatsApp</button>
+      <small>Ao enviar, o WhatsApp será aberto com sua solicitação preenchida.</small>
+    </form>
+  </div>
+</section>
+
+<section class="section contact" id="contato">
+  <div class="container">
+    <p class="eyebrow">CONTATO</p>
+    <h2>Vamos conversar sobre sua infraestrutura.</h2>
+    <p>Atendimento para empresas de Limoeiro do Norte e região, com possibilidade de suporte remoto.</p>
+    <a class="btn primary" href="#diagnostico">Falar com a InfraTech</a>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container footer">
+    <div class="brand"><span>INFRA</span>TECH</div>
+    <p>© <span id="year"></span> InfraTech. Infraestrutura de TI.</p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  document.getElementById('leadForm').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const nome = document.getElementById('nome').value.trim();
+    const empresa = document.getElementById('empresa').value.trim();
+    const whatsapp = document.getElementById('whatsapp').value.trim();
+    const mensagem = document.getElementById('mensagem').value.trim();
+    const numero = '5588999999999'; // TROQUE pelo seu número com DDI + DDD.
+    const texto = `Olá, InfraTech!%0A%0AQuero solicitar um diagnóstico de infraestrutura.%0A%0ANome: ${encodeURIComponent(nome)}%0AEmpresa: ${encodeURIComponent(empresa)}%0AWhatsApp: ${encodeURIComponent(whatsapp)}%0ANecessidade: ${encodeURIComponent(mensagem || 'Não informado')}`;
+    window.open(`https://wa.me/${numero}?text=${texto}`, '_blank');
+  });
+</script>
+</body>
+</html>
